@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+header{
+    background-color: lightblue;
+    padding: 10px 0px;
+}
+
+footer{
+    background-color: rgb(64, 62, 62);
+}
+
+/* layout */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-sm{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.side-col{
+    width: 20%;
+}
+
+.main-col{
+    width: 60%;
+}
+
+.large-col{
+    width: 70%;
+}
+
+.full-col{
+    width: 100%;
+}
+
+.small-col{
+    width: 30%;
+}
+
+.col-25{
+    width: 25%;
+}
+
+.content{
+    padding: 10px;
+}
+
+/* utility */
+.border-black{
+    border: 1px solid black;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-violet{
+    background-color: violet;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+
+.bg-acquamarine{
+    background-color: aquamarine;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-600{
+    height: 600px;
+}
+
+.my-20{
+    margin: 20px auto;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/* content */
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+#jumbotron{
+    background-color: darkblue;
+    padding: 20px 0px;
+}
+
+#top-footer{
+    border-bottom: 1px solid white;
+    padding: 10px 0 30px 0;
+}
+
+#bottom-footer{
+    padding-top: 30px;
+}
+
+.logo-footer, .button-footer{
+    background-color: salmon;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
